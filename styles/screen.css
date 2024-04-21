@@ -1,5 +1,5 @@
 body{
-    background-color: #FFFFF;
+    background-color: #FFFFFF;
     color: #000000;
   }
   h1{
@@ -33,7 +33,7 @@ body{
       max-width: 100%;
       height: auto;
   }
-  }
+  
   
   .house {
       position: absolute;
