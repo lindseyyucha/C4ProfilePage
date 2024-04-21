@@ -16,8 +16,8 @@ body{
       margin-bottom: -10px;
   }
   .container img {
-    max-width: 80px; /* Adjust as needed */
-    max-height: 80px; /* Adjust as needed */
+    max-width: 200px;
+    max-height: 200px;
 }
 
   .grid-container {
@@ -49,7 +49,7 @@ body{
 
 .left-container .grid-item img {
     width: 40px;
-    height: 20px;
+    height: 40px;
 }
 .right-container {
     position: absolute;
@@ -62,5 +62,5 @@ body{
 
 .right-container img {
     width: 40px; 
-    height: 20px;
+    height: 40px;
 }
