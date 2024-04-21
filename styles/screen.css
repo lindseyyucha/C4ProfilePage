@@ -1,60 +1,63 @@
-body{
+body {
     background-color: #FFFFFF;
     color: #000000;
-    margin: 0; 
+    margin: 0;
     padding: 0;
-  }
-  h1 {
+}
+
+h1 {
     font-size: 20px;
     text-align: center;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 .container {
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: 20px;
 }
-  .container img {
+
+.container img {
     max-width: 200px;
     max-height: 200px;
 }
+
 .follow-icons {
     position: absolute;
-    bottom: -20px; 
+    bottom: -20px;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .follow-icons img {
-    margin: 0 5px; 
+    margin: 0 5px;
 }
 
-  .grid-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px 5px;
-  }
-  
-  .grid-item {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  .grid-item img {
-      max-width: 100%;
-      height: auto;
-  }
-  
-  
-  .left-container {
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 10px; 
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.left-container {
     position: absolute;
-    top: 20px;
+    top: 10px; 
     left: 20px;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     align-items: flex-start;
 }
 
@@ -62,9 +65,10 @@ body{
     width: 40px;
     height: 40px;
 }
+
 .right-container {
     position: absolute;
-    top: 20px;
+    top: 10px; /* Adjusted top position */
     right: 60px;
     display: flex;
     justify-content: flex-end;
@@ -72,6 +76,6 @@ body{
 }
 
 .right-container img {
-    width: 40px; 
+    width: 40px;
     height: 40px;
 }
