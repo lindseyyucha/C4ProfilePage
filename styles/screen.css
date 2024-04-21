@@ -21,9 +21,6 @@ body{
     max-width: 200px;
     max-height: 200px;
 }
-.propic{
-    margin-bottom: 10px;
-}
 .follow-icons {
     position: absolute;
     bottom: -20px; 
@@ -76,6 +73,7 @@ body{
     justify-content: flex-end;
     align-items: flex-start;
 }
+
 .right-container .grid-item {
     margin-left: 10px; 
 }
