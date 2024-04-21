@@ -13,8 +13,6 @@ h1 {
 
 .container {
     text-align: center;
-    justify-content: center;
-    align-items: center;
     position: relative;
     margin-top: 20px;
 }
@@ -24,11 +22,14 @@ h1 {
     max-height: 200px;
 }
 
+.propic {
+    margin-bottom: 10px;
+}
+
 .follow-icons {
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; 
 }
 
 .follow-icons img {
@@ -38,7 +39,7 @@ h1 {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px 10px; 
+    gap: 10px; 
 }
 
 .grid-item {
@@ -54,7 +55,7 @@ h1 {
 
 .left-container {
     position: absolute;
-    top: 10px; 
+    top: 0; /* Adjusted top position */
     left: 20px;
     display: flex;
     flex-direction: row;
@@ -68,7 +69,7 @@ h1 {
 
 .right-container {
     position: absolute;
-    top: 10px; /* Adjusted top position */
+    top: 0; 
     right: 60px;
     display: flex;
     justify-content: flex-end;
