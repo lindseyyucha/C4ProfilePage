@@ -13,6 +13,7 @@ body{
       justify-content: center; 
       align-items: center; 
       height: 100vh; 
+      margin-bottom: 5px;
   }
   
   img {
@@ -42,14 +43,24 @@ body{
     top: 20px;
     left: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row; 
     align-items: flex-start;
 }
 
 .left-container .grid-item img {
-    width: 50px;
+    width: 40px;
     height: auto;
 }
-.right-container{
+.right-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
 
+.right-container img {
+    width: 40px; 
+    height: auto;
 }
