@@ -21,6 +21,9 @@ body{
     max-width: 200px;
     max-height: 200px;
 }
+.propic{
+    margin-bottom: 10px;
+}
 .follow-icons {
     position: absolute;
     bottom: -20px; 
@@ -37,6 +40,7 @@ body{
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 10px 5px;
+      margin-bottom: 15px;
   }
   
   .grid-item {
@@ -71,11 +75,6 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-}
-
-.right-container img {
-    width: 40px; 
-    height: 40px;
 }
 .right-container .grid-item {
     margin-left: 10px; 
