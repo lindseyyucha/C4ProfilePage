@@ -15,6 +15,7 @@ body{
     justify-content:center;
     align-items: center;
     position: relative;
+    margin-bottom: 15px;
 }
   .container img {
     max-width: 200px;
@@ -65,7 +66,7 @@ body{
 .right-container {
     position: absolute;
     top: 20px;
-    right: 60px;
+    right: 100px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
