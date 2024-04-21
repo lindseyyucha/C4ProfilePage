@@ -14,10 +14,21 @@ body{
     text-align: center;
     justify-content:center;
     align-items: center;
+    position: relative;
 }
   .container img {
     max-width: 200px;
     max-height: 200px;
+}
+.follow-icons {
+    position: absolute;
+    bottom: -20px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.follow-icons img {
+    margin: 0 5px; 
 }
 
   .grid-container {
@@ -54,7 +65,7 @@ body{
 .right-container {
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 60px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
