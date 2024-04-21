@@ -14,7 +14,7 @@ h1 {
 .container {
     text-align: center;
     position: relative;
-    margin-top: 20px;
+    
 }
 
 .container img {
@@ -40,6 +40,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px; 
+    margin-bottom: 10px; 
 }
 
 .grid-item {
@@ -55,7 +56,7 @@ h1 {
 
 .left-container {
     position: absolute;
-    top: 0; /* Adjusted top position */
+    top: 0; 
     left: 20px;
     display: flex;
     flex-direction: row;
