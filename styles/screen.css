@@ -4,17 +4,19 @@ body{
     margin: 0; 
     padding: 0;
   }
-  h1{
+  h1 {
     font-size: 20px;
     text-align: center;
-  }
-  .container {
-      display: flex;
-      justify-content: center; 
-      align-items: center; 
-      height: 100vh; 
-      margin-bottom: -10px;
-  }
+    margin-bottom: 10px; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 220px);
+    margin-bottom: 10px; 
+}
   .container img {
     max-width: 200px;
     max-height: 200px;
